@@ -1,0 +1,220 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container1 {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container2 {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box {
+    width: 301px;
+    height: 612px;
+
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-15 {
+    width: 15%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.w-30 {
+    width: 30%;
+}
+
+.w-70 {
+    width: 70%;
+}
+
+
+.w-78 {
+    width: 78%;
+}
+
+.w-10 {
+    width: 10%;
+}
+
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 {
+    width: 100%;
+    margin: auto;
+
+}
+
+.padding1 {
+    padding: 8px 88px;
+    height: 48px;
+}
+
+.padding2 {
+    padding: 16px 88px;
+    height: 88px;
+}
+
+
+#header {
+    background-color: var(--second-color);
+}
+
+select {
+    border: none;
+    background-color: var(--second-color);
+}
+
+label {
+    margin-right: -3%;
+}
+
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.align-content {
+    align-items: center;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
+}
+
+:root {
+    --primary-color: #1071FF;
+    --second-color: #F6F8FB;
+    --third-color: #FF7E27;
+    --dark-color: black;
+    --light-color: white;
+}
+
+#req {
+    width: 511px;
+    height: 32px;
+}
+
+#phone {
+
+    color: var(--primary-color);
+}
+
+#search {
+    width: 543px;
+    height: 48px;
+    border: 1px var(--second-color) solid;
+    border-radius: 8px;
+    padding: 12px 16px;
+}
+
+#button {
+    width: 198px;
+    height: 48px;
+    border: none;
+    border-radius: 30px;
+    background-color: var(--primary-color);
+    padding: 16px 32px;
+    color: var(--light-color);
+}
+
+#icon-search {
+    top: 16px;
+}
+
+#icon-rigth1 {
+
+    bottom: 0px;
+    left: 65%;
+
+}
+
+#icon-rigth2 {
+    bottom: 0px;
+    left: 57%;
+}
+
+.text1 {
+    color: var(--primary-color);
+}
+
+#navbar {
+    background-color: var(--second-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+
+.line1-section {
+    color: var(--second-color)
+}
+
+.line2-section {
+    color: var(--primary-color);
+}
+
+.price {
+    font-size: x-large;
+}
+
+.del-price {
+    color: var(--third-color);
+}
+
+.box-Num {
+    width: 106px;
+    height: 48px;
+    border: 1px var(--second-color) solid;
+}
+
+.item {
+    width: 171px;
+    height: 48px;
+    border: 1px var(--second-color) solid;
+
+}
+
+.addto {
+    width: 285px;
+    height: 48px;
+    border-radius: 30px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--light-color);
+}
